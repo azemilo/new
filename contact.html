@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="navlink">Home Page</a>
+            <a href="about.html" class="navlink">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1>Table Form</h1>
+            <table border="1">
+                <tbody><tr>
+                  <th>Company</th>
+                  <th>Contact</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+              </tbody></table>
+        </div>
+
+        <div class="formContainer">
+            <h2>Contact Form</h2>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="password" id="passname" name="passname"><br><br>
+
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="female"><br><br>
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="female"><br><br>
+              </form>
+        </div>
+    </main>
+</body>
+
+</html>
